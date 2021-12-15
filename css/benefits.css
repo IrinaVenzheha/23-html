@@ -1,0 +1,21 @@
+.section-benefits{
+ display: grid;
+ grid-template-columns: 2fr 1fr 1fr;
+}
+.section-benefits-h4 {
+    font-weight: bold;
+    color: honeydew;
+    line-height: 1.5;
+}
+.we-have {
+    color: honeydew;
+
+}
+.section-benefits-p{
+    line-height: 1.5;
+}
+
+.yellow-letters{
+    color: #cee002;
+}
+
