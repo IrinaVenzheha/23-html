@@ -94,3 +94,13 @@
     font-weight: bold;
     text-decoration: underline;
 }
+.showcase-h3-card {
+    
+    line-height: 1.5;
+    color: honeydew;
+}
+.showcase-p-card{
+    font-size: 16px;
+    line-height: 1.5;
+
+}
