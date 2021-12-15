@@ -47,6 +47,13 @@
     align-items: center;
     justify-content: center;
 }
+@media (min-width: 300px) {
+    .showcase-grid {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr;
+    }  
+}
 
 @media (min-width: 600px) {
     .showcase-grid {
@@ -95,7 +102,7 @@
     text-decoration: underline;
 }
 .showcase-h3-card {
-    
+
     line-height: 1.5;
     color: honeydew;
 }
