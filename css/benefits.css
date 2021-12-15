@@ -1,7 +1,8 @@
-.section-benefits{
- display: grid;
- grid-template-columns: 2fr 1fr 1fr;
-}
+/* .section-benefits{
+display: grid;
+grid-template-columns: 2fr 1fr 1fr;} */
+
+
 .section-benefits-h4 {
     font-weight: bold;
     color: honeydew;
@@ -18,4 +19,29 @@
 .yellow-letters {
     color: #cee002;
 }
+
+@media (min-width: 600px) {
+    .section-benefits {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr;
+    }  
+}
+
+/* @media (min-width: 768px) {
+    .section-benefits{
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+} */
+
+ @media (min-width: 980px) {
+    .section-benefits {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 2fr 1fr 1fr ;
+    }
+} 
+
+
 
