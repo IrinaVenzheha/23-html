@@ -1,0 +1,68 @@
+.showcase-grid{
+    background-color:#23262d;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.link-read-more-consulting {
+    background-image: url(../img/sladder.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-read-more-restoration {
+    background-image: url(../img/srestoration.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link-read-more-new-home {
+    background-image: url(../img/shouse.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link-read-more-interior {
+    background-image: url(../img/sfurniture.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+    .showcase-grid {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr;
+    }  
+}
+
+@media (min-width: 900px) {
+    .showcase-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    .showcase-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

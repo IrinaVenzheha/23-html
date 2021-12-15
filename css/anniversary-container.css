@@ -1,6 +1,7 @@
-body{
-  
-}
+/* body {
+    margin: 0;
+    padding: 0;
+    } */
 .anniversary-container{
     background-color:#23262d;
     font-family: 'Roboto', sans-serif;
@@ -24,7 +25,5 @@ margin:20px 50px 20px 10px;
 margin:0px 0px 0px 0px;
 color: white;
 }
-.ZEN-cottages{
 
-}
 
